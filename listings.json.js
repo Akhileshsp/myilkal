@@ -33,8 +33,14 @@ const LISTINGS = [
     id: 1,
     title: "2 BHK Independent House",
     images: [
-      "images/house1.jpg",
-      "images/house1-2.jpg"
+      "images/abhi1.jpeg",
+      "images/abhi2.jpeg",
+      "images/abhi3.jpeg",
+      "images/abhi4.jpeg",
+      "images/abhi5.jpeg",
+      "images/abhi6.jpeg",
+      "images/abhi7.jpeg",
+      "images/abhi8.jpeg",
     ],
     rent: 7000,
     advance: 14000,
