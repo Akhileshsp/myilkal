@@ -592,8 +592,8 @@ function openModal(id) {
     </div>
     <h2>${listing.title}${listing.bhk ? ' &middot; ' + listing.bhk : ''}</h2>
     ${listing.description ? `<p style="color:var(--text-secondary);margin-bottom:12px;">${listing.description}</p>` : ''}
-    <div style="color:var(--text-muted);font-size:0.88rem;margin-bottom:8px;display:flex;align-items:center;gap:6px;">
-      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+    <div style="color:var(--text-muted);font-size:0.88rem;margin-bottom:8px;display:flex;align-items:flex-start;gap:6px;word-break:break-word;">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="flex-shrink:0;margin-top:2px;"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
       ${listing.address}
     </div>
     <div class="modal-details">
@@ -626,11 +626,11 @@ function openModal(id) {
     </div>
     <div class="modal-owner">
       <div class="owner-avatar">${getInitials(listing.ownerName)}</div>
-      <div style="flex:1;">
-        <div style="font-weight:600;color:var(--text-primary);">${listing.ownerName}</div>
+      <div style="flex:1;min-width:0;">
+        <div style="font-weight:600;color:var(--text-primary);word-break:break-word;">${listing.ownerName}</div>
         <div style="color:var(--text-muted);font-size:0.88rem;">${listing.ownerPhone}</div>
       </div>
-      <a href="tel:${listing.ownerPhone.replace(/\s/g, '')}" class="call-btn" style="margin-left:auto;">
+      <a href="tel:${listing.ownerPhone.replace(/\s/g, '')}" class="call-btn">
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
         Call Owner
       </a>
