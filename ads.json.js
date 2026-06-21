@@ -28,8 +28,8 @@
 const ADS = [
   {
     id: 1,
-    title: "Ilkal EV Showroom - Grand Opening!",
-    subtitle: "Explore the latest Electric Scooters & Bikes. Test ride available. EMI starts at Rs. 1,999/month.",
+    title: "Shree Raghavendra EV Showroom - Grand Opening!",
+    subtitle: "Explore the latest Electric Scooters & Bikes. Test ride available.",
     image: "images/banner-ev-showroom.jpg",
     buttonText: "View Details",
     gradient: "linear-gradient(135deg, rgba(238,242,255,0.92), rgba(224,231,255,0.88))",
@@ -48,22 +48,12 @@ const ADS = [
   },
   {
     id: 3,
-    title: "Plots for Sale & Purchase - Ilkal & Nearby",
-    subtitle: "Residential & commercial plots available. DTCP approved layouts. Clear titles. Instant registration.",
-    image: "images/banner-plots.jpg",
+    title: "All Types of Sale Agreements & Gift Deeds",
+    subtitle: "Registered Sale Agreements, Gift Deeds, Rental Agreements & Power of Attorney. Quick & Affordable.",
+    image: "images/MC.jpg",
     buttonText: "View Details",
-    gradient: "linear-gradient(135deg, rgba(236,254,255,0.92), rgba(224,247,250,0.88))",
+    gradient: "linear-gradient(135deg, rgba(250,240,255,0.92), rgba(253,232,243,0.88))",
     active: true,
-    tag: "PLOTS"
-  },
-  {
-    id: 4,
-    title: "Saraswati Vidya Mandir - Admissions Open 2025-26!",
-    subtitle: "English Medium, CBSE Pattern, LKG to 10th. Limited seats. Smart classrooms, sports, and transport facility.",
-    image: "images/banner-school-admissions.jpg",
-    buttonText: "View Details",
-    gradient: "linear-gradient(135deg, rgba(236,253,245,0.92), rgba(224,247,250,0.88))",
-    active: true,
-    tag: "ADMISSIONS OPEN"
+    tag: "LEGAL SERVICES"
   }
 ];
